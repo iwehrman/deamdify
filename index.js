@@ -3,7 +3,7 @@
  */
 var through = require('through')
   , esprima = require('esprima-fb')
-  , estraverse = require('estraverse')
+  , estraverse = require('estraverse-fb')
   , escodegen = require('escodegen')
   , path = require('path')
   , util = require('util');
