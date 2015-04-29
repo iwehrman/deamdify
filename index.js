@@ -2,7 +2,7 @@
  * Module dependencies.
  */
 var through = require('through')
-  , esprima = require('esprima')
+  , esprima = require('esprima-fb')
   , estraverse = require('estraverse')
   , escodegen = require('escodegen')
   , path = require('path')
