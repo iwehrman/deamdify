@@ -4,7 +4,7 @@
 var through = require('through')
   , esprima = require('esprima-fb')
   , estraverse = require('estraverse-fb')
-  , escodegen = require('escodegen')
+  , escodegen = require('escodegen-jsx')
   , path = require('path')
   , util = require('util');
 
