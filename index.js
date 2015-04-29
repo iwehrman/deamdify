@@ -41,7 +41,7 @@ module.exports = function (file, options) {
       , isUMD = false
       , supportsCommonJs = false;
 
-    if (ext.toLowerCase() === '.js') {
+    if (ext.toLowerCase() === '.js' || ext.toLowerCase() === '.jsx') {
       try {
         ast = esprima.parse(data)
       } catch (error) {
